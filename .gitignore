@@ -1,0 +1,60 @@
+.next/
+node_modules/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+.venv/
+venv/
+.env
+backend/.env
+frontend/.env.local
+storage/
+backend/storage/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sql
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Python specific
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+*.egg-info/
+.eggs/
+
+# Node specific
+.eslintcache
+.stylelintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn/cache
+.yarn/install-state.gz
+
+# Next.js specific
+.vercel
+.turbo
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Desktop.ini
+
